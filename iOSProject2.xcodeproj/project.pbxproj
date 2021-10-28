@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2C7953272B140A000C4EA6 /* filmData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA2C7952272B140A000C4EA6 /* filmData.json */; };
 		AA752ED12729D35C00511802 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA752ED02729D35C00511802 /* Tests_iOS.swift */; };
 		AA752ED32729D35C00511802 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA752ED22729D35C00511802 /* Tests_iOSLaunchTests.swift */; };
 		AA752EDD2729D35C00511802 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA752EDC2729D35C00511802 /* Tests_macOS.swift */; };
@@ -23,7 +24,6 @@
 		AA752EFC2729D62A00511802 /* FilmDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA752EFB2729D62A00511802 /* FilmDetail.swift */; };
 		AA752EFE2729D65600511802 /* AddNewFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA752EFD2729D65600511802 /* AddNewFilm.swift */; };
 		AA752F002729D84C00511802 /* FilmPosters.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA752EFF2729D84C00511802 /* FilmPosters.xcassets */; };
-		AA752F082729E2DF00511802 /* filmData.json in Resources */ = {isa = PBXBuildFile; fileRef = AA752F072729E2DF00511802 /* filmData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2C7952272B140A000C4EA6 /* filmData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = filmData.json; path = ../../../.Trash/filmData.json; sourceTree = "<group>"; };
 		AA752EB82729D35A00511802 /* iOSProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSProject2App.swift; sourceTree = "<group>"; };
 		AA752EB92729D35A00511802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA752EBA2729D35C00511802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		AA752EFB2729D62A00511802 /* FilmDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetail.swift; sourceTree = "<group>"; };
 		AA752EFD2729D65600511802 /* AddNewFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFilm.swift; sourceTree = "<group>"; };
 		AA752EFF2729D84C00511802 /* FilmPosters.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FilmPosters.xcassets; sourceTree = "<group>"; };
-		AA752F072729E2DF00511802 /* filmData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = filmData.json; path = ../../filmData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 				AA752EFF2729D84C00511802 /* FilmPosters.xcassets */,
 				AA752EBA2729D35C00511802 /* Assets.xcassets */,
 				AA752EF92729D5FC00511802 /* FilmStore.swift */,
-				AA752F072729E2DF00511802 /* filmData.json */,
 				AA752EF52729D59200511802 /* Film.swift */,
+				AA2C7952272B140A000C4EA6 /* filmData.json */,
 				AA752EFB2729D62A00511802 /* FilmDetail.swift */,
 				AA752EF72729D5C800511802 /* FilmData.swift */,
 				AA752EFD2729D65600511802 /* AddNewFilm.swift */,
@@ -289,7 +289,7 @@
 			files = (
 				AA752F002729D84C00511802 /* FilmPosters.xcassets in Resources */,
 				AA752EE42729D35C00511802 /* Assets.xcassets in Resources */,
-				AA752F082729E2DF00511802 /* filmData.json in Resources */,
+				AA2C7953272B140A000C4EA6 /* filmData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

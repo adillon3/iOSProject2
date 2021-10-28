@@ -6,6 +6,9 @@ struct AddNewFilm: View
     @State private var isInTheaters = false
     @State private var name: String = ""
     @State private var description: String = ""
+    @State private var currentColor: Color = .gray
+    
+    
     
     var body: some View
     {
@@ -19,16 +22,19 @@ struct AddNewFilm: View
                     .padding()
                 DataInput(title: "Title", userInput: $name)
                 DataInput(title: "Description", userInput: $description)
+            
                 
                 Toggle(isOn: $isInTheaters)
                 {
                     Text("Currently in Theaters").font(.headline)
                 }.padding()
                 
+                
                 Button(action: addNewFilm)
                 {
                     Text("Add Movie")
-                } //END Button(action: addNewFil,) {
+                        .foregroundColor(currentColor)
+                } //END Button(action: addNewFilm) {
             }//END Section(header: Text("Film Details"))
         }//END Form
     }//END var body: some View {

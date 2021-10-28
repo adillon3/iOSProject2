@@ -3,12 +3,16 @@
 import Foundation
 import SwiftUI
 
-struct FilmDetail: View {
+struct FilmDetail: View
+{
+    
+    @State private var currentHeader : String = "Movies Description"
+    
     let selectedFilm: Film
     var body: some View
     {
         Form {
-            Section(header: Text("Movie Details"))
+            Section(header: Text(currentHeader))
             {
                 Image(selectedFilm.imageName)
                     .resizable()
@@ -26,11 +30,20 @@ struct FilmDetail: View {
                     Spacer()
                     Image(systemName: selectedFilm.isInTheaters ? "checkmark.circle" : "xmark.circle" )
                 }
+                Button(
+                action: {self.switchHeader()},
+                    label: {Text("Switch Header Language")}
+                )
             }
         }
     }
     
-                
+    
+    func switchHeader()
+    {
+        let list = ["Description des films", "Descripción de películas", "Movies Descriptio", "Tuairisgeul nam filmichean", "映画の説明", "Opis filmów", "Mô tả phim", "Disgrifiad Ffilmiau", "Movie Description"]
+        currentHeader = list.randomElement() ?? ""
+    }
     
  
 
