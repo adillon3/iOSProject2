@@ -1,0 +1,8 @@
+Name: Andrew Dillon
+ID  : 2382400
+
+Prefered platform: iPhone 13, though they all will work
+
+The program allows users to view, add to, and remove movies from a list.  Information gathered about the 
+film includes the title, a short description, as well as a boolean determining if the film is currently 
+in theaters or not.
