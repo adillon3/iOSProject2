@@ -1,0 +1,39 @@
+[
+    {
+        "id": "aa32jj887hhg55",
+        "name": "Star Wars : Episode IV - A New Hope",
+        "description": "Luxury 4-door all-electric car. Range of 310 miles. 0-60mph in 3.2 seconds",
+        "isInTheaters": false,
+        "imageName": "StarWarsPoster"
+    },
+    {
+        "id": "bb32jj887hhg77",
+        "name": "Tangled",
+        "description": "5-door lift-back electric car. Performance model has a three-phase, four-pole AC induction 416 hp (310 kW) and 443 ft⋅lb (601 N⋅m) rear-mounted electric motor",
+        "isInTheaters": false,
+        "imageName": "TangledPoster"
+    },
+    {
+        "id": "cc32jj887hhg66",
+        "name": "Dune",
+        "description": "5-door liftback full hybrid electric automobile developed by Toyota.",
+        "isInTheaters": true,
+        "imageName": "DunePoster"
+    },
+    {
+        "id": "dd32jj887hhg88",
+        "name": "Bee Movie",
+        "description": "A compact five-door hatchback all-electric car manufactured by Nissan",
+        "isInTheaters": false,
+        "imageName": "BeeMoviePoster"
+    },
+    {
+        "id": "ee32jj887hhg99",
+        "name": "Tron",
+        "description": "5-door hatchback plug-in hybrid car manufactured by General Motors.",
+        "isInTheaters": false,
+        "imageName": "TronPoster"
+    }
+    
+]
+
